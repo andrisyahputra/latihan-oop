@@ -13,7 +13,7 @@ namespace Repository {
 
     class CatatanRepositoryImpl implements CatatanRepository
     {
-        public array $catatanlist =  [];
+        private array $catatanlist =  [];
         function save(Catatanlist $catatanlist): void
         {
 
